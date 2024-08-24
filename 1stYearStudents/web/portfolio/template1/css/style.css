@@ -1,4 +1,4 @@
-/** Css Reset **/
+            /** Css Reset **/
 /*
   1. Use a more-intuitive box-sizing model.
 */
@@ -45,4 +45,26 @@ p, h1, h2, h3, h4, h5, h6 {
 #root, #__next {
   isolation: isolate;
 }
+li {
+    list-style: none;
+}
 /** End of Css Reset **/
+
+        /**Section: Introduction**/
+/*
+    navbar section
+*/
+.nav-links {
+    display: flex;
+    width: 100%;
+}
+nav{
+    width: 100%;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 150px;
+    width: 100%;
+}
