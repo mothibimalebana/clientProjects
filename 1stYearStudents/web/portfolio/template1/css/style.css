@@ -17,8 +17,9 @@
   4. Improve text rendering
 */
 body {
-  line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
+
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
 }
 /*
   5. Improve media defaults
@@ -52,11 +53,35 @@ li {
 
         /**Section: Introduction**/
 /*
+    intro
+*/
+.intro-container{
+    width: 85vw;
+    height: 75vh;
+    margin-left: auto;
+}
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    background: #D8D8D8;
+    width: 90%;
+    height: 90%;
+
+    margin-left: auto;
+}
+/*
     navbar section
 */
 .nav-links {
     display: flex;
-    width: 100%;
+    width: 76.5%;
+
+    background: #D8D8D8;
+
+    padding-top: 2%;
+    margin-left: auto;
 }
 nav{
     width: 100%;
@@ -64,7 +89,23 @@ nav{
 ul {
     display: flex;
     flex-direction: row;
-    justify-content: end;
-    gap: 150px;
+    justify-content: flex-end;
+    gap: 10%;
     width: 100%;
+
+    padding: 0;
+    padding-right: 5%;
+}
+/*
+    text
+*/
+.text-container {
+    font-size: 16px;
+    line-height: 36px;
+    letter-spacing: 0.386px;
+    
+    width: 50%;
+    align-self: flex-end;
+    border-left: #999 1px solid;
+    padding-left: 5%;
 }
