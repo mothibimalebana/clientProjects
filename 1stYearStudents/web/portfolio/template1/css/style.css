@@ -115,7 +115,7 @@ li {
 */
 .nav-links {
     display: flex;
-    width: 76.5%;
+    width: 77.4%;
 
     color: #000;
 
@@ -170,4 +170,37 @@ ul {
     padding: 3%;
     border-radius: 5%;
     border-style: none;
+}
+
+.school-container {
+    display: flex;
+    flex-direction: column;
+    padding: 5% 10%;
+}
+.school-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+.school-header > h4 {
+    font-size: 80px;
+    color: #999;
+    
+}
+.school-name {
+    color: #6D6D6D;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 0.643px;
+}
+.school-details {
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    color: #6D6D6D;
+    letter-spacing: 0.386px;
+}
+.school {
+    display: flex;
+    justify-content: space-between;
 }
