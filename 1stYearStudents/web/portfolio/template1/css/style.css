@@ -91,20 +91,15 @@ li {
 /*
     intro
 */
-.intro-container{
-    position: relative;
-    width: 85vw;
-    height: 75vh;
-    margin-left: auto;
-}
-.intro {
+
+.intro-container {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    position: static;
+    position: relative;
     background: #D8D8D8;
-    width: 90%;
-    height: 90%;
+    width: 75vw;
+    height: 50vh;
 
     margin-left: auto;
 
@@ -115,13 +110,13 @@ li {
 */
 .nav-links {
     display: flex;
-    width: 77.4%;
+    width: 75vw;
 
     color: #000;
 
     background: #D8D8D8;
 
-    padding-top: 2%;
+    padding-top: 4%;
     margin-left: auto;
 }
 nav{
@@ -140,7 +135,7 @@ ul {
 /*
     text
 */
-.text-container {
+.paragraph-container {
     font-size: 16px;
     line-height: 36px;
     letter-spacing: 0.386px;
@@ -150,25 +145,29 @@ ul {
     border-left: #999 1px solid;
     padding-left: 5%;
 }
-.text-header {
-    width: 25%;
+.text-container {
     position: absolute;
+    top: -10%;
+    left: -10%;
+  
+    width: 30%;
+
+    font-weight: 700;
+    line-height: normal;
     font-family: 'poppins-medium';
-    font-size: 100px;
-    top: 10%;
+    font-size: 70px;
     color: #999999;
-    
+  
 
 }
-.text-container > h6{
-    position: absolute;
-}
+
 .button-container > button{
     position: absolute;
-    bottom: 2%;
+    width: 24%;
+    bottom: -8%;
+    left: -8%;
     background: #FFE8E8;
     padding: 3%;
-    border-radius: 5%;
     border-style: none;
 }
 
