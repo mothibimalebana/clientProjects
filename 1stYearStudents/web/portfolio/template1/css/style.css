@@ -97,7 +97,7 @@ li {
     flex-direction: column;
     justify-content: space-around;
     position: relative;
-    background: #D8D8D8;
+    background: rgba(216, 216, 216, 0.2217);
     width: 75vw;
     height: 50vh;
 
@@ -114,7 +114,7 @@ li {
 
     color: #000;
 
-    background: #D8D8D8;
+    background: rgba(216, 216, 216, 0.2217);
 
     padding-top: 4%;
     margin-left: auto;
