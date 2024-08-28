@@ -113,6 +113,10 @@ li {
 /*
     navbar section
 */
+.nav {
+  width: 85vw;
+  margin-left: auto;
+}
 .nav-links {
     display: flex;
     width: 77.48%;
@@ -177,10 +181,13 @@ ul {
     flex-direction: column;
     padding: 5% 10%;
 }
-.school-content {
+.education {
     display: flex;
     flex-direction: column;
     gap: 2vh;
+}
+.school-content {
+  display: flex;
 }
 .school-header > h4 {
     font-size: 80px;
@@ -197,10 +204,11 @@ ul {
     font-size: 18px;
     font-weight: 400;
     font-style: normal;
-    color: #6D6D6D;
+    color: #7E7C7C;
     letter-spacing: 0.386px;
 }
 .school {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
 }
