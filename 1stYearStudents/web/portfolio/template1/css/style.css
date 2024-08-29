@@ -97,12 +97,13 @@ html {
 }
 .intro-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-around;
+    align-items: center;
     position: relative;
     background: rgba(216, 216, 216, 0.2217);
     width: 75vw;
-    height: 50vh;
+    height: 40rem;
 
     margin-left: auto;
 
@@ -138,22 +139,27 @@ ul {
 /*
     text
 */
+.text {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
 .paragraph-container {
     font-size: 1rem;
     line-height: 36px;
     letter-spacing: 0.386px;
     
     width: 50%;
-    align-self: center;
+    align-self: flex-end;
     border-left: #999 1px solid;
     padding-left: 5%;
 }
 .text-container {
     position: absolute;
-    top: -10%;
-    left: -10%;
+    top: 25%;
+    left: -15%;
   
-    width: 30%;
+    width: 50%;
 
     font-weight: 700;
     line-height: normal;
@@ -166,7 +172,8 @@ ul {
 }
 .button-container > button{
     position: absolute;
-    width: 24%;
+    width: 20rem;
+    height: 7rem;
     bottom: -8%;
     left: -8%;
     background: #FFE8E8;
@@ -176,7 +183,9 @@ ul {
 
 .school-container {
     display: flex;
+    margin-top: 10rem;
     flex-direction: column;
+
     padding: 5% 10%;
 }
 .school-content {
