@@ -92,6 +92,9 @@ li {
     intro
 */
 
+html {
+  font-size: 18px;
+}
 .intro-container {
     display: flex;
     flex-direction: column;
@@ -136,7 +139,7 @@ ul {
     text
 */
 .paragraph-container {
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 36px;
     letter-spacing: 0.386px;
     
@@ -155,12 +158,12 @@ ul {
     font-weight: 700;
     line-height: normal;
     font-family: 'poppins-medium';
-    font-size: 70px;
     color: #999999;
-  
-
 }
 
+.text-container > h4 {
+  font-size: 6rem;
+}
 .button-container > button{
     position: absolute;
     width: 24%;
@@ -182,18 +185,18 @@ ul {
     gap: 2vh;
 }
 .school-header > h4 {
-    font-size: 80px;
+    font-size: clamp(1rem, 2rem, 3rem);
     color: #999;
     
 }
 .school-name {
     color: #6D6D6D;
-    font-size: 30px;
+    font-size: 2rem;
     font-weight: 500;
     letter-spacing: 0.643px;
 }
 .school-details {
-    font-size: 18px;
+    font-size: 1rem;
     font-weight: 400;
     font-style: normal;
     color: #6D6D6D;
@@ -201,5 +204,6 @@ ul {
 }
 .school {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
 }
